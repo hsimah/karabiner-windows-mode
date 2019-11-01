@@ -1,5 +1,5 @@
 {
-  "title": "Windows Shortcuts",
+  "title": "hsimah keybindings",
   "rules": [
     {
       "description": "Insert (Ctrl) [+Terminal Emulators]",
@@ -337,7 +337,7 @@
         {
           "from": {
             "key_code": "left_arrow",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": ["control"]
           },
           "to": [{
               "key_code": "left_arrow",
@@ -365,7 +365,7 @@
         {
           "from": {
             "key_code": "left_arrow",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": ["control", "shift"]
           },
           "to": [{
               "key_code": "left_arrow",
@@ -393,7 +393,7 @@
         {
           "from": {
             "key_code": "right_arrow",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": { "mandatory": ["control"] }
           },
           "to": [{
               "key_code": "right_arrow",
@@ -421,7 +421,7 @@
         {
           "from": {
             "key_code": "right_arrow",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": ["control", "shift"]
           },
           "to": [{
               "key_code": "right_arrow",
