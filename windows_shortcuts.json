@@ -119,10 +119,13 @@
         {
           "from": {
             "key_code": "right_arrow",
-            "modifiers": [
-              "control",
-              "shift"
-            ]
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": []
+            }
           },
           "to": [
             {
